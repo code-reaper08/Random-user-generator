@@ -52,7 +52,8 @@ button p {
     padding-right: 10px;
 }
 
-button:hover {
+/* not needed */
+/* button:hover {
     background-color: chocolate;
     height: 50px;
     width: auto;
@@ -61,4 +62,20 @@ button:hover {
     border: none;
     color: aliceblue;
     
+} */
+
+.female {
+    background-color: teal;
+}
+.female:hover {
+    background-color: thistle;
+    color: darkslategray;
+}
+
+.male{
+    background-color: coral;
+    color: aliceblue;
+}
+.male:hover{
+    background-color: chocolate;
 }
