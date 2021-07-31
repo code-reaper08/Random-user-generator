@@ -12,7 +12,7 @@
     <img :class="gender" :src=picture :alt=firstName lastName>
     <h1>{{firstName}} {{lastName}}</h1>
     <h2>{{email}}</h2>
-    <button :class="gender"><p>Generate</p></button>
+    <button v-on:click="getData()" :class="gender"><p>Generate</p></button>
     
 </div>
     
