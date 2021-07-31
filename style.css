@@ -4,16 +4,24 @@ body {
 #App {
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 180px;
     background-color: aquamarine;
     border-radius: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    box-shadow: 5px 10px 10px rgb(93, 216, 175);
+    box-shadow: 5px 10px 10px rgb(53, 151, 119);
 }
 img {
     border-radius: 50%;
     margin-top: 20px;
+    width: 100px;
+    height: auto;
+    transition: ease-in-out 0.5s;
+}
+img:hover {
+    border-radius: 50%;
+    width: 130px;
+    height: auto;
 }
 
 h1 {
@@ -21,15 +29,22 @@ h1 {
 
 }
 
+h2 {
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
 button {
     height: 50px;
     width: auto;
     border-radius: 50px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border: none;
     background-color: coral;
     color: aliceblue;
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.5s;
 
 }
 button p {
