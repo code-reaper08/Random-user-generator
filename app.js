@@ -5,7 +5,7 @@ const app = Vue.createApp({
             lastName: null,
             email: null,
             gender: null,
-            picture: null
+            picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxGOW62J1to3Zdna2wrpDhYV9XsZg1OEx3EQ&usqp=CAU"
         }
     },
     methods: {

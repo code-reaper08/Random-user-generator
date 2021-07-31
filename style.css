@@ -1,58 +1,56 @@
 body {
-    background-color: rgb(81, 207, 165);
+  background-color: rgb(81, 207, 165);
 }
 #App {
-    text-align: center;
-    position: relative;
-    top: 180px;
-    background-color: aquamarine;
-    border-radius: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    box-shadow: 5px 10px 10px rgb(53, 151, 119);
+  text-align: center;
+  position: relative;
+  top: 180px;
+  background-color: aquamarine;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 5px 10px 10px rgb(53, 151, 119);
 }
 img {
-    border-radius: 50%;
-    margin-top: 20px;
-    width: 100px;
-    height: auto;
-    transition: ease-in-out 0.5s;
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 100px;
+  height: auto;
+  transition: ease-in-out 0.5s;
 }
 img:hover {
-    border-radius: 50%;
-    width: 130px;
-    height: auto;
+  border-radius: 50%;
+  width: 130px;
+  height: auto;
 }
 
 h1 {
-    color: crimson;
-
+  color: crimson;
 }
 
 h2 {
-    color: crimson;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    word-wrap: break-word;
-    padding-left: 5px;
-    padding-right: 5px;
+  color: crimson;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  word-wrap: break-word;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 button {
-    height: 50px;
-    width: auto;
-    border-radius: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: none;
-    background-color: coral;
-    color: aliceblue;
-    transition: ease-in-out 0.5s;
-
+  height: 50px;
+  width: auto;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: coral;
+  color: aliceblue;
+  transition: ease-in-out 0.5s;
 }
 button p {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* not needed */
@@ -68,17 +66,17 @@ button p {
 } */
 
 .female {
-    background-color: teal;
+  background-color: teal;
 }
 .female:hover {
-    background-color: thistle;
-    color: darkslategray;
+  background-color: thistle;
+  color: darkslategray;
 }
 
-.male{
-    background-color: coral;
-    color: aliceblue;
+.male {
+  background-color: coral;
+  color: aliceblue;
 }
-.male:hover{
-    background-color: chocolate;
+.male:hover {
+  background-color: chocolate;
 }
